@@ -1,0 +1,136 @@
+body {
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 1200px;
+
+    background: transparent linear-gradient(180deg, var(--unnamed-color-ffffff) 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #E6E6E6 21%, #808080 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fondwhith{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    width: 1400px;
+    height: 800px;
+    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.tarjet{
+    position: absolute;
+    top: 322px;
+    left: 227px;
+    width: 884px;
+    height: 497px;
+}
+
+.logo1{
+    position: absolute;
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+    }
+
+.compraTarjeta{
+    position: absolute;
+    top: 240px;
+    left: 814px;
+    width: 230px;
+    height: 41px;
+}    
+
+.verSaldo{
+    position: absolute;
+    top: 242px;
+    left: 815px;
+    width: 132px;
+    height: 41px;
+}
+
+.linea{
+    position: absolute;
+    top: 260px;
+    left: 467px;
+}
+
+.search{
+    position: absolute;
+    top: 235px;
+    left: 658px;
+    width: 27px;
+    height: 27px;
+}
+.cart{
+    position: absolute;
+    margin: 0px 0px -239px 720px;
+}
+
+.saldo{
+    position: absolute;
+    margin: 0px 0px -54px 150px;
+}
+
+.Cop{
+    position: absolute;
+    top: 93px;
+    left: -718px;
+    width: 139px;
+    height: 37px;
+}
+
+.FondGreenp{
+    position: absolute;
+    top: 860px;
+    left: 1171px;
+    width: 160px;
+    height: 114px;
+}
+
+.logo2{
+    position: absolute;
+    top: 45px;
+    left: 11px;
+    width: 129px;
+    height: 29px;
+}
+
+.comprar{
+    position: absolute;
+    top: 933px;
+    left: 1201px;
+    width: 111px;
+    height: 36px;
+}
+
+.Black{
+    position: absolute;
+    top: 200px;
+    left: 1393px;
+    width: 110px;
+    height: 800px;
+}
+
+.Menu{
+    position: absolute;
+    top: 473px;
+    left: 1437px;
+    width: 23px;
+    height: 187px;
+}
+
+.Down{
+    position: absolute;
+    top: 940px;
+    left: 1437px;
+    width: 24px;
+    height: 14px;
+}
+
+.Up{
+    position: absolute;
+}
