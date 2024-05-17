@@ -6,6 +6,10 @@
     font-family:b;
     src: url(./font/Ember/AmazonEmber_Bd.ttf)
 }
+@font-face{
+    font-family:c;
+    src: url(./myriad/Myriad\ Pro\ Italic.ttf);
+}
 
 .textoGrande{
     position: absolute;
@@ -110,6 +114,32 @@ opacity: 1;
     height: 99px;
     font-size: 45px;
     background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.texto8{
+    position: absolute;
+    color: white;
+    font-family:c;
+    top: 3979px;
+    left: 843px;
+    width: 92px;
+    height: 20px;
+    font-size: 20px;
+    background: transparent url('img/Powered by.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.texto9{
+    position: absolute;
+    color: white;
+    font-family:c;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    font-size: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
