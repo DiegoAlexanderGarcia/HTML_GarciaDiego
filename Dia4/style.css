@@ -10,14 +10,22 @@
     font-family:c;
     src: url(./myriad/Myriad\ Pro\ Italic.ttf);
 }
-
+body{
+    background-color: #707070;
+    text-align: center;
+    padding: auto;
+    width: 100%;
+    display: inline-block;
+    min-width: 100px;
+}
 .textoGrande{
     position: absolute;
     color: white;
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 66.3px;
     top: 475px;
-    left: 389px;
+    left: -41px;
     width: 2000px;
     height: 60px;
     background: transparent url('img/Your favorite content, on one place only..png') 0% 0% no-repeat padding-box;
@@ -147,7 +155,7 @@ opacity: 1;
     top: 0px;
     left: 0px;
     width: 1920px;
-    height: 1080px;  
+    height: 1080px;
 }
 
 .LogG{
@@ -212,6 +220,7 @@ opacity: 1;
 }
 
 .tarjetaAzul2{
+    
     position: absolute;
     top: 1717px;
     left: 64px;
