@@ -1,0 +1,111 @@
+@font-face{
+    font-family:a;
+    src: url(/Dia5/fond/paradroidmono-bold.ttf);
+}
+
+@font-face{
+    font-family:b;
+    src: url(/Dia5/fond/ParadroidMono-Light.ttf);
+}
+
+
+
+#Cabecera {
+	background: #1e1e1e;
+	color: white;
+	height: 55px;
+}	
+
+
+#Foods {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	
+	
+#Foods .Nombre_P {
+    font-family:a;
+    color: #ff702a;
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+nav {
+float: right;
+}
+    nav ul {
+        margin: 0;
+        list-style: none;
+        padding-right: 20px;
+    }
+
+        nav ul li {
+            display: inline-block;
+            line-height: 30px;
+        }
+            
+            nav ul li a {
+                display: block;
+                font-family: a;
+                color: #fff;    
+                padding: 0 10px;
+                text-decoration: none;
+            }
+            
+                nav ul li a:hover {
+                    background: #464343;
+                }
+
+.C1{
+    background-color: #1e1e1e;
+    overflow: hidden;
+}
+                
+    .tex1{
+        position: relative;
+        top: 135px;
+        left: 90px;
+        font-family:a;
+        color: #ff702a;
+    }
+
+    .tx1{
+        top: 140px;
+        left: 90px;
+        position: relative;
+        font-family: a;
+        color: #fff;
+    }
+
+.bot{
+    position: relative;
+    text-align: center;
+    font-family: a;
+    color: #fff;
+    top: 150px;
+    left: 100px;
+    width: 120px;
+    height: 25px;
+    background-color: #ff702a;
+    border:1px solid #ff702a;
+}
+
+    .img_home{
+        position: relative;
+        top: 0px;
+        left: 900px;
+        width: 300px;
+        
+
+    }
+
+.C2{
+    background-color: #1e1d2b;
+}
+
+.t1{
+    font-family: a;
+    color: #ff702a;
+}
