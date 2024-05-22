@@ -1,0 +1,113 @@
+@font-face {
+    font-family: a;
+    src: url(/Dia6/font/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: b;
+    src: url(/Dia6/font/MyriadPro-Light.woff);
+}
+
+
+body{
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+}
+
+.content{
+    position: absolute;
+    width: 1920px;
+    height: 1637px;
+    overflow: hidden;
+}
+
+.R11{
+    position: fixed;
+    top: 0px;
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.pexels{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1637px;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+.reg12{
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 1225px;
+    border-radius: 50px;
+    opacity: 1;
+    position: absolute;
+}
+
+.bot{
+    top: 1463px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+    opacity: 1;
+    position: absolute;
+}
+
+.dian{
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    opacity: 1;
+    position: absolute;
+}
+
+.text1{
+    top: 328px;
+    left: 627px;
+    width: 666px;
+    height: 64px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    font-family: a;
+    font-size: 26px;
+}
+
+.ajax{
+    top: 425px;
+    left: 845px;
+    width: 231px;
+    height: 77px;
+    opacity: 1;
+    position: absolute;
+}
+
+.text2{
+    top: 503px;
+    left: 569px;
+    width: 208px;
+    height: 21px;
+    opacity: 1;
+    position: absolute;
+    font-family: a;
+}
+
+.rect5{
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    border: 1px solid #707070;
+    opacity: 1;
+    position: absolute;
+}
