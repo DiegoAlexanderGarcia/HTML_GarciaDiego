@@ -8,6 +8,11 @@
     src: url(/Dia5/fond/ParadroidMono-Light.ttf);
 }
 
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 #Cabecera {
     overflow: hidden;
@@ -85,14 +90,14 @@ nav ul li a:hover {
 .tex1 {
     position: relative;
     top: 135px;
-    left: 165px;
+    left: 160px;
     font-size: 50px;
     font-family: a;
     color: #ff702a;
 }
 
 .tx1 {
-    top: 125px;
+    top: 135px;
     left: 165px;
     position: relative;
     font-family: a;
@@ -117,8 +122,8 @@ nav ul li a:hover {
 
 .img_home {
     position: relative;
-    top: -100px;
-    left: 700px;
+    top: -25px;
+    left: 600px;
     width: 300px;
 }
 
