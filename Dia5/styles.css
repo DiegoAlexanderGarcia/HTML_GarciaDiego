@@ -1,111 +1,312 @@
-@font-face{
-    font-family:a;
+@font-face {
+    font-family: a;
     src: url(/Dia5/fond/paradroidmono-bold.ttf);
 }
 
-@font-face{
-    font-family:b;
+@font-face {
+    font-family: b;
     src: url(/Dia5/fond/ParadroidMono-Light.ttf);
 }
 
 
-
 #Cabecera {
-	background: #1e1e1e;
-	color: white;
-	height: 55px;
-}	
-
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 98.8%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #1e1e1e;
+    color: white;
+    height: 55px;
+    z-index: 999;
+}
 
 #Foods {
-	float: left;
-	padding: 15px 0 0 20px;
-	text-decoration: none;
+    position: relative;
+    top: -20px;
+    left: 30px;
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: none;
 }
-	
-	
+
 #Foods .Nombre_P {
-    font-family:a;
-    color: #ff702a;
     display: block;
+    font-family: b;
+    color: #ff702a;
     font-weight: 700;
     font-size: 1.2em;
 }
 
 nav {
-float: right;
+    float: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    transition: align-items .2s;
+    font-size: 30px;
 }
-    nav ul {
-        margin: 0;
-        list-style: none;
-        padding-right: 20px;
-    }
 
-        nav ul li {
-            display: inline-block;
-            line-height: 30px;
-        }
-            
-            nav ul li a {
-                display: block;
-                font-family: a;
-                color: #fff;    
-                padding: 0 10px;
-                text-decoration: none;
-            }
-            
-                nav ul li a:hover {
-                    background: #464343;
-                }
+nav ul {
+    margin: 0;
+    list-style: none;
+    padding-right: 20px;
+}
 
-.C1{
+ul {
+    display: flex;
+    margin: 50px 50px 0 0;
+    padding: 0;
+    transition: margin .2s;
+}
+
+li:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    font-family: a;
+    color: #fff;    
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #464343;
+}
+
+.C1 {
     background-color: #1e1e1e;
     overflow: hidden;
 }
-                
-    .tex1{
-        position: relative;
-        top: 135px;
-        left: 90px;
-        font-family:a;
-        color: #ff702a;
-    }
 
-    .tx1{
-        top: 140px;
-        left: 90px;
-        position: relative;
-        font-family: a;
-        color: #fff;
-    }
-
-.bot{
+.tex1 {
     position: relative;
-    text-align: center;
+    top: 135px;
+    left: 165px;
+    font-size: 50px;
+    font-family: a;
+    color: #ff702a;
+}
+
+.tx1 {
+    top: 125px;
+    left: 165px;
+    position: relative;
+    font-family: a;
+    color: #fff;
+    font-size: 20px;
+}
+
+.bot {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: a;
     color: #fff;
     top: 150px;
-    left: 100px;
+    left: 165px;
     width: 120px;
-    height: 25px;
+    height: 30px;
     background-color: #ff702a;
-    border:1px solid #ff702a;
+    border: 1px solid #ff702a;
 }
 
-    .img_home{
-        position: relative;
-        top: 0px;
-        left: 900px;
-        width: 300px;
-        
+.img_home {
+    position: relative;
+    top: -100px;
+    left: 700px;
+    width: 300px;
+}
 
-    }
-
-.C2{
+.C2 {
     background-color: #1e1d2b;
+    overflow: hidden;
+    height: 500px;
 }
 
-.t1{
+.About {
+    position: relative;
+}
+
+.t1 {
     font-family: a;
     color: #ff702a;
+}
+.About{
+    position: relative;
+    top:100px;
+    left: 140px;
+    width: 300px;
+}
+
+.totex{
+    position: relative;
+    float: right;
+    font-family: a;
+    top: 83px;
+    left: -252px;
+}
+
+.stex{
+    color: #fff;
+}
+
+.t2{
+    font-size: 40px;
+}
+
+.bot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: a;
+    color: #fff;
+    top: 150px;
+    left: 165px;
+    width: 130px;
+    height: 30px;
+    background-color: #ff702a;
+    border: 1px solid #ff702a;
+}
+
+.C3 {
+    background-color: #1e1d2b;
+    overflow: hidden;
+    height: 500px;
+}
+
+.sstex{
+    text-align: center;
+    font-family: a;
+}
+
+.text1{
+    color: #ff702a;
+    font-size: 20px;
+}
+
+.text2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.food1 {
+    position: relative;
+    left: 130px;
+    width: 250px;
+}
+
+.food2{
+    position: relative;
+    left: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+}
+
+.food3{
+    position:relative;
+    float: right;
+    left: -180px;
+    width: 240px;
+}
+
+.C4 {
+    background-color: #1e1d2b;
+    overflow: hidden;
+    height: 500px;
+}
+
+.tt1{
+    text-align: center;
+    font-family: a;
+}
+
+.txt1{
+    color: #ff702a;
+}
+
+.txt2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.tt2{
+    font-family: a;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    left: -390px;
+
+}
+
+
+
+.txt3{
+    color: #ff702a;    
+}
+
+.txt31{
+    color: #fff;
+}
+
+.tt3{
+    font-family: a;
+    position: relative;
+    top: -100px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.txt4{
+    color: #ff702a;
+}
+
+.txt41{
+    color: #fff;
+}
+
+.tt4{
+    font-family: a;
+    position: relative;
+    top: -210px;
+    left: -140px;
+    justify-content: center;
+    text-align: center;
+    float: right;
+}
+
+.txt5{
+    color: #ff702a;
+}
+
+.txt51{
+    color: #fff;
+}
+
+.s1{
+    position: relative;
+    left: 130px;
+    width: 200px;
+}
+
+.s2{
+    position: relative;
+    left: 300px;
+    justify-content: center;
+    align-items: center;
+
+    width: 210px;
+}
+
+.s3{
+    position:relative;
+    float: right;
+    left: -180px;
+    width: 190px;
 }
