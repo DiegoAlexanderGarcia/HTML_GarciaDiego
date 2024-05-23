@@ -92,22 +92,167 @@ body{
     position: absolute;
 }
 
-.text2{
-    top: 503px;
-    left: 569px;
-    width: 208px;
-    height: 21px;
-    opacity: 1;
+label{
+    display: block;
+    font-size: 28px;
+}
+
+.entrada1{
     position: absolute;
+    top: 501px;
+    left: 565px;
+}
+
+.entrada2{
+    position: absolute;
+    top: 630px;
+    left: 565px;
+}
+
+.entrada1 label{
+    font-family: a  ;
+}
+
+.entrada2 label{
     font-family: a;
 }
 
-.rect5{
+.c1 {
     top: 532px;
     left: 564px;
     width: 792px;
     height: 63px;
-    border: 1px solid #707070;
-    opacity: 1;
+    font-size: 50px;
+}
+
+.c2{
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: 50px;    
+}
+
+.img1{
     position: absolute;
+    top: 750px;
+    left: 743px;
+    width: 401px;
+    height: 113px;
+    opacity: 1;
+}
+
+.text2{
+    position: absolute;
+    font-size: 11px;
+    top: 871px;
+    left: 681px;
+    width: 518px;
+    height: 11px;
+    opacity: 1;
+    font-family: b;
+}
+
+.botcon{
+    position: absolute;
+    top: 900px;
+    left: 864px;
+    width: 165px;
+    height: 42px;
+    opacity: 1;
+}
+
+.text3{
+    position: absolute;
+    font-size: 35px;
+    top: 983px;
+    left: 434px;
+    width: 1052px;
+    height: 35px;
+    opacity: 1;
+    font-family: a;
+}
+
+.awes{
+    position: absolute;
+    top: 1075px;
+    left: 701px;
+    width: 63px;
+    height: 84px;
+    opacity: 1;
+}
+
+.awes2{
+    position: absolute;
+    top: 1080px;
+    left: 1168px;
+    width: 103px;
+    height: 62px;
+    opacity: 1;
+}
+
+.text4{
+    position: absolute;
+    top: 1141px;
+    left: 638px;
+    width: 188px;
+    height: 35px;
+    opacity: 1;
+    font-family: a;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text5{
+    position: absolute;
+    top: 1141px;
+    left: 1029px;
+    width: 380px;
+    height: 35px;
+    opacity: 1;
+    font-family: a;
+    font-size: 35px;
+    text-align: center;
+}
+
+.text6{
+    position: absolute;
+    top: 1220px;
+    left: 508px;
+    width: 450px;
+    height: 86px;
+    opacity: 1;
+    font-family: b;
+    font-size: 17px;
+    text-align: center;
+}
+
+.text7{
+    position: absolute;
+    top: 1220px;
+    left: 1083px;
+    width: 275px;
+    height: 86px;
+    opacity: 1;
+    font-family: b;
+    font-size: 17px;
+    text-align: center;
+}
+
+.botconsultar{
+    position: absolute;
+    top: 1326px;
+    left: 622px;
+    width: 220px;
+    height: 56px;
+    opacity: 1;
+}
+
+.botconsultar2{
+    position: absolute;
+    top: 1326px;
+    left: 1109px;
+    width: 220px;
+    height: 56px;
+    opacity: 1;
 }
