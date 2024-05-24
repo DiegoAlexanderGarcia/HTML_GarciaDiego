@@ -19,7 +19,7 @@ body{
 .content{
     position: absolute;
     width: 1920px;
-    height: 1637px;
+    height: 1317px;
     overflow: hidden;
 }
 
@@ -35,10 +35,10 @@ body{
 
 .pexels{
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1920px;
-    height: 1637px;
+    top: 174px;
+    left: -158px;
+    width: 2195px;
+    height: 1464px;
     opacity: 0.5;
     overflow: hidden;
 }
@@ -47,14 +47,14 @@ body{
     top: 191px;
     left: 167px;
     width: 1545px;
-    height: 1225px;
+    height: 910px;
     border-radius: 50px;
     opacity: 1;
     position: absolute;
 }
 
 .bot{
-    top: 1463px;
+    top: 1130px;
     left: 0px;
     width: 1920px;
     height: 285px;
@@ -72,9 +72,9 @@ body{
 }
 
 .text1{
-    top: 328px;
-    left: 627px;
-    width: 666px;
+    top: 327px;
+    left: 567px;
+    width: 787px;
     height: 64px;
     opacity: 1;
     position: absolute;
@@ -97,6 +97,10 @@ label{
     font-size: 28px;
 }
 
+.entradas{
+    top: 0px;
+}
+
 .entrada1{
     position: absolute;
     top: 501px;
@@ -107,6 +111,13 @@ label{
     position: absolute;
     top: 630px;
     left: 565px;
+}
+
+.entrada3{
+    position: absolute;
+    top: 757px;
+    left: 564px;
+    font-family: a;
 }
 
 .entrada1 label{
@@ -133,10 +144,18 @@ label{
     font-size: 50px;    
 }
 
+.c3{
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: 50px;
+}
+
 .img1{
     position: absolute;
-    top: 750px;
-    left: 743px;
+    top: 880px;
+    left: 760px;
     width: 401px;
     height: 113px;
     opacity: 1;
@@ -144,10 +163,11 @@ label{
 
 .text2{
     position: absolute;
+    text-align: center;
     font-size: 11px;
-    top: 871px;
-    left: 681px;
-    width: 518px;
+    top: 980px;
+    left: 758px;
+    width: 405px;
     height: 11px;
     opacity: 1;
     font-family: b;
@@ -155,104 +175,10 @@ label{
 
 .botcon{
     position: absolute;
-    top: 900px;
-    left: 864px;
-    width: 165px;
+    top: 1030px;
+    left: 873px;
+    width: 166px;
     height: 42px;
     opacity: 1;
 }
 
-.text3{
-    position: absolute;
-    font-size: 35px;
-    top: 983px;
-    left: 434px;
-    width: 1052px;
-    height: 35px;
-    opacity: 1;
-    font-family: a;
-}
-
-.awes{
-    position: absolute;
-    top: 1075px;
-    left: 701px;
-    width: 63px;
-    height: 84px;
-    opacity: 1;
-}
-
-.awes2{
-    position: absolute;
-    top: 1080px;
-    left: 1168px;
-    width: 103px;
-    height: 62px;
-    opacity: 1;
-}
-
-.text4{
-    position: absolute;
-    top: 1141px;
-    left: 638px;
-    width: 188px;
-    height: 35px;
-    opacity: 1;
-    font-family: a;
-    font-size: 35px;
-    text-align: center;
-}
-
-.text5{
-    position: absolute;
-    top: 1141px;
-    left: 1029px;
-    width: 380px;
-    height: 35px;
-    opacity: 1;
-    font-family: a;
-    font-size: 35px;
-    text-align: center;
-}
-
-.text6{
-    position: absolute;
-    top: 1220px;
-    left: 508px;
-    width: 450px;
-    height: 86px;
-    opacity: 1;
-    font-family: b;
-    font-size: 17px;
-    text-align: center;
-}
-
-.text7{
-    position: absolute;
-    top: 1220px;
-    left: 1083px;
-    width: 275px;
-    height: 86px;
-    opacity: 1;
-    font-family: b;
-    font-size: 17px;
-    text-align: center;
-}
-
-.botconsultar{
-    position: absolute;
-    top: 1326px;
-    left: 622px;
-    width: 220px;
-    height: 56px;
-    opacity: 1;
-}
-
-.botconsultar2{
-    position: absolute;
-    top: 1326px;
-    left: 1109px;
-    width: 220px;
-    height: 56px;
-    opacity: 1;
-}
