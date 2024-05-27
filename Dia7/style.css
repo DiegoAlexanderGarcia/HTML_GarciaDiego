@@ -8,12 +8,16 @@
     src: url(./font/MyriadPro-Light.woff);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body{
     box-sizing: border-box;
-    width: 192VW;
-    height: 108VW;
-    margin: 0;
+    min-height: 100vh;
+    padding: 0;
 }
 
 .content{
@@ -31,11 +35,11 @@ body{
 }
 
 .pexels{
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: auto;
+    height: 163.7VW;
     opacity: 0.5;
     overflow: hidden;
 }
@@ -190,7 +194,7 @@ label{
 
 .text4{
     position: absolute;
-    top: 114.1vw;
+    top: 116.1vw;
     left: 63.8vw;
     width: 18.8vw;
     height: 3.5vw;
@@ -202,7 +206,7 @@ label{
 
 .text5{
     position: absolute;
-    top: 114vw;
+    top: 116vw;
     left: 102.9vw;
     width: 38vw;
     height: 3.5vw;
