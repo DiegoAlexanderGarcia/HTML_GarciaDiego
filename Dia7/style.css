@@ -1,0 +1,255 @@
+@font-face {
+    font-family: a;
+    src: url(./font/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: b;
+    src: url(./font/MyriadPro-Light.woff);
+}
+
+
+body{
+    box-sizing: border-box;
+    width: 192VW;
+    height: 108VW;
+    margin: 0;
+}
+
+.content{
+    position: absolute;
+    width: 192vw;
+    height: 163.7VW;
+}
+
+.R11{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    z-index: 1;
+}
+
+.pexels{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+.reg12{
+    top: 19.1vw;
+    left: 16.7vw;
+    width: 154.5vw;
+    height: 122.5vw;
+    border-radius: 5.0vw;
+    opacity: 1;
+    position: absolute;
+}
+
+.bot{
+    top: 149.3vw;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+}
+
+.dian{
+    top: 24.2vw;
+    left: 80.4vw;
+    width: 31.3vw;
+    height: 5.3vw;
+    opacity: 1;
+    position: absolute;
+}
+
+.text1{
+    top: 32.8vw;
+    left: 62.7vw;
+    width: 66.6pvw;
+    height: 6.4vw;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    font-family: a;
+    font-size: 2.6vw;
+}
+
+.ajax{
+    top: 42.5vw;
+    left: 84.5vw;
+    width: 23.1vw;
+    height: 7.7vw;
+    opacity: 1;
+    position: absolute;
+}
+
+label{
+    display: block;
+    font-size: 2.8vw;
+}
+
+.entrada1{
+    position: absolute;
+    top: 50.1vw;
+    left: 56.5vw;
+}
+
+.entrada2{
+    position: absolute;
+    top: 63vw;
+    left: 56.5vw;
+}
+
+.entrada1 label{
+    font-family: a  ;
+}
+
+.entrada2 label{
+    font-family: a;
+}
+
+.c1 {
+    top: 53.2vw;
+    left: 56.4vw;
+    width: 79.2vw;
+    height: 6.3vw;
+    font-size: 5vw;
+}
+
+.c2{
+    top: 53.2vw;
+    left: 56.4vw;
+    width: 79.2vw;
+    height: 6.3vw;
+    font-size: 5vw;    
+}
+
+.img1{
+    position: absolute;
+    top: 75vw;
+    left: 74.3vw;
+    width: 40.1vw;
+    height: 11.3vw;
+    opacity: 1;
+}
+
+.text2{
+    position: absolute;
+    font-size: 1.1vw;
+    top: 87.1vw;
+    left: 68.1vw;
+    width: 51.8vw;
+    height: 1.1vw;
+    opacity: 1;
+    font-family: b;
+}
+
+.botcon{
+    position: absolute;
+    top: 90vw;
+    left: 86.4vw;
+    width: 16.5vw;
+    height: 4.2vw;
+    opacity: 1;
+}
+
+.text3{
+    position: absolute;
+    font-size: 3.5vw;
+    top: 98.3vw;
+    left: 43.4vw;
+    width: 105.2vw;
+    height: 3.5pvw;
+    opacity: 1;
+    font-family: a;
+}
+
+.awes{
+    position: absolute;
+    top: 107.5vw;
+    left: 70.1vw;
+    width: 6.3vw;
+    height: 8.4vw;
+    opacity: 1;
+}
+
+.awes2{
+    position: absolute;
+    top: 108vw;
+    left: 116.8vw;
+    width: 10.3vw;
+    height: 6.2vw;
+    opacity: 1;
+}
+
+.text4{
+    position: absolute;
+    top: 114.1vw;
+    left: 63.8vw;
+    width: 18.8vw;
+    height: 3.5vw;
+    opacity: 1;
+    font-family: a;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.text5{
+    position: absolute;
+    top: 114vw;
+    left: 102.9vw;
+    width: 38vw;
+    height: 3.5vw;
+    opacity: 1;
+    font-family: a;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+.text6{
+    position: absolute;
+    top: 122vw;
+    left: 50.8vw;
+    width: 45vw;
+    height: 8.6vw;
+    opacity: 1;
+    font-family: b;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.text7{
+    position: absolute;
+    top: 122vw;
+    left: 108.3vw;
+    width: 27.5vw;
+    height: 8.6vw;
+    opacity: 1;
+    font-family: b;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.botconsultar{
+    position: absolute;
+    top: 132.6vw;
+    left: 62.2vw;
+    width: 22vw;
+    height: 5.6vw;
+    opacity: 1;
+}
+
+.botconsultar2{
+    position: absolute;
+    top: 132.6vw;
+    left: 110.9vw;
+    width: 22vw;
+    height: 5.6vw;
+    opacity: 1;
+}

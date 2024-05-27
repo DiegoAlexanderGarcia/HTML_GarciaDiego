@@ -1,0 +1,184 @@
+@font-face {
+    font-family: a;
+    src: url(./font/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+    font-family: b;
+    src: url(./font/MyriadPro-Light.woff);
+}
+
+
+body{
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+}
+
+.content{
+    position: absolute;
+    width: 1920px;
+    height: 1317px;
+    overflow: hidden;
+}
+
+.R11{
+    position: fixed;
+    top: 0px;
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 174px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.pexels{
+    position: absolute;
+    top: 174px;
+    left: -158px;
+    width: 2195px;
+    height: 1464px;
+    opacity: 0.5;
+    overflow: hidden;
+}
+
+.reg12{
+    top: 191px;
+    left: 167px;
+    width: 1545px;
+    height: 910px;
+    border-radius: 50px;
+    opacity: 1;
+    position: absolute;
+}
+
+.bot{
+    top: 1130px;
+    left: 0px;
+    width: 1920px;
+    height: 285px;
+    opacity: 1;
+    position: absolute;
+}
+
+.dian{
+    top: 242px;
+    left: 804px;
+    width: 313px;
+    height: 53px;
+    opacity: 1;
+    position: absolute;
+}
+
+.text1{
+    top: 327px;
+    left: 567px;
+    width: 787px;
+    height: 64px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    font-family: a;
+    font-size: 26px;
+}
+
+.ajax{
+    top: 425px;
+    left: 845px;
+    width: 231px;
+    height: 77px;
+    opacity: 1;
+    position: absolute;
+}
+
+label{
+    display: block;
+    font-size: 28px;
+}
+
+.entradas{
+    top: 0px;
+}
+
+.entrada1{
+    position: absolute;
+    top: 501px;
+    left: 565px;
+}
+
+.entrada2{
+    position: absolute;
+    top: 630px;
+    left: 565px;
+}
+
+.entrada3{
+    position: absolute;
+    top: 757px;
+    left: 564px;
+    font-family: a;
+}
+
+.entrada1 label{
+    font-family: a  ;
+}
+
+.entrada2 label{
+    font-family: a;
+}
+
+.c1 {
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: 50px;
+}
+
+.c2{
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: 50px;    
+}
+
+.c3{
+    top: 532px;
+    left: 564px;
+    width: 792px;
+    height: 63px;
+    font-size: 50px;
+}
+
+.img1{
+    position: absolute;
+    top: 880px;
+    left: 760px;
+    width: 401px;
+    height: 113px;
+    opacity: 1;
+}
+
+.text2{
+    position: absolute;
+    text-align: center;
+    font-size: 11px;
+    top: 980px;
+    left: 758px;
+    width: 405px;
+    height: 11px;
+    opacity: 1;
+    font-family: b;
+}
+
+.botcon{
+    position: absolute;
+    top: 1030px;
+    left: 873px;
+    width: 166px;
+    height: 42px;
+    opacity: 1;
+}
+
