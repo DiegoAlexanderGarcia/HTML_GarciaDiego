@@ -1,0 +1,143 @@
+#paisaje{
+    width: 100%;
+    height: 100%;   
+}
+
+#sol{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9vw;
+    top: 2vw;
+    left: 0;
+    right: 0;
+    animation-name: sol;
+    animation-duration: 10s;
+}
+
+@keyframes sol{
+    0% {margin-top: 1vw;}
+    50% {margin-top: 3vw;}
+    100% {margin-top: 1vw;}
+}
+
+.nuve{
+    overflow: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 22vw;
+    left: -28vw;
+    right: -12vw;
+    top: -5vw;
+}
+
+#nuve{
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vw;
+    right: 0vw;
+    position: relative;
+    animation-name: nuve;
+    animation-duration: 10s;
+}
+
+@keyframes nuve {
+    0% {margin-left: 0vw;}
+    50% {margin-left: 63vw;}
+    100% {margin-left: 150vw;}
+}
+
+.lluvia{
+    overflow: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vw;
+    left: 35vw;
+    right: 35vw;
+    top: 17vw;
+}
+
+#lluvia{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18vw;
+    left: 6vw;
+    right: 35vw;
+    top: -18vw;
+    animation-name: lluvia;
+    animation-duration: 10s;
+}
+
+@keyframes lluvia {
+    0% {top: -18vw;}
+    30% {top: -18vw;}
+    50% {top:19vw;}
+    100% {top: 40vw}
+}
+
+.rosa{
+    overflow: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9vw;
+    left: 0;
+    right: 0;
+    top: 28.5vw;
+}
+
+#rosa{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0%;
+    left: 0;
+    right: 0;
+    top: 0.5vw;
+    animation-name: rosa;
+    animation-duration: 10s;
+}
+
+@keyframes rosa {
+    0% {height: 0%; top: 10vw;}
+    50% {height: 0%; top: 10vw;}
+    100% {height: 100%;}
+}
+.conteo p{
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    top: 25vw;
+    left: 48vw;
+    height: 6vw;
+    right: 9vw;
+    width: 3vw;
+}
+
+
+.c3 {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
+
+.c2{
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
+
+.c1{
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
+
+.accion{
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+}
