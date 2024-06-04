@@ -53,10 +53,10 @@
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    height: 20vw;
+    height: 22vw;
     left: 35vw;
     right: 35vw;
-    top: 17vw;
+    top: 15vw;
 }
 
 #lluvia{
@@ -74,8 +74,7 @@
 @keyframes lluvia {
     0% {top: -18vw;}
     30% {top: -18vw;}
-    50% {top:19vw;}
-    100% {top: 40vw}
+    100% {top: 45vw}
 }
 
 .rosa{
