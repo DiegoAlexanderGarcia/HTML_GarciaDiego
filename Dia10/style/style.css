@@ -6,7 +6,7 @@
 
 .contenedor{
         display: grid;
-        text-align: center;
+        text-align: left;
         background: rgb(100, 99, 99);
         grid-template-columns: 18% auto;
         grid-template-rows: 10% auto;
@@ -17,7 +17,11 @@
     margin-top: -2vw;
 }
 
-.menu{
+#menu{
+    display: none;
+}
+
+.menuP{
     position: relative;
     background-color: aqua;
     height: 100vh;
@@ -26,20 +30,18 @@
     grid-row: 1/2;
 }
 
-.titt{
-    font-size: 2vw;
-}
 
 #tittle{
+    text-align: center;
     font-size: 2vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu li p{
+.menuP li p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu li a{
+.menuP li a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
@@ -61,5 +63,13 @@
     top: 2vw;
     left: 19vw;
     height: 5vh;
+}
 
+.ico{
+    cursor: pointer;
+    height: 2vw;
+    display: inline-block;
+    position: relative;
+    top: 2vw;
+    left: 11vw;
 }
