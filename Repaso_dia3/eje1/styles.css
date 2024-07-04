@@ -1,0 +1,102 @@
+.conten{
+    text-align: center;
+    
+}
+
+.let1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 6rem;
+    color: aqua;
+    animation-name: u;
+    animation-duration: 5s;
+}
+
+.let1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 6rem;
+    color: aqua;
+    animation-name: u;
+    animation-duration: 5s;
+}
+
+.let2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    color: rgb(81, 83, 83);
+}
+
+.let3{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    color: aqua;
+    margin-left: 3vw;
+}
+
+.let4{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    color: rgb(81, 83, 83);
+    margin-left: 3vw;
+}
+
+.let5{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    color: aqua;
+}
+
+.let6{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    color: rgb(81, 83, 83);
+}
+
+.let7{
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    color: aqua;
+}
+
+@keyframes u {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+
+@keyframes let2 {
+    0%{transform: rotateX(80dge);}
+    50%{transform: rotateX(0dge);}
+    100%{transform: rotateX(180dge);}
+}
+
+@keyframes let3 {
+    0%{transform: rotateX(80dge);}
+    50%{transform: rotateX(0dge);}
+    100%{transform: rotateX(180dge);}
+}
+
+@keyframes let14 {
+    0%{transform: rotateX(80dge);}
+    50%{transform: rotateX(0dge);}
+    100%{transform: rotateX(180dge);}
+}
+
+@keyframes let5 {
+    0%{transform: rotateX(80dge);}
+    50%{transform: rotateX(0dge);}
+    100%{transform: rotateX(180dge);}
+}
+
+@keyframes let6 {
+    0%{transform: rotateX(80dge);}
+    50%{transform: rotateX(0dge);}
+    100%{transform: rotateX(180dge);}
+}
+
+@keyframes let7 {
+    0%{transform: rotateX(80dge);}
+    50%{transform: rotateX(0dge);}
+    100%{transform: rotateX(180dge);}
+}
+
+
