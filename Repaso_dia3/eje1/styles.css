@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(56, 53, 53);
+}
+
 .conten{
     display: flex;
     justify-content: center;
@@ -16,7 +20,7 @@
 .let2{
     font-family: 'Alfa Slab One', cursive;
     font-size:6rem;
-    color: rgb(81, 83, 83);
+    color: rgb(154, 155, 155);
     transform: rotateX(180deg);
     animation-name: u;
     animation-duration: 5s;
@@ -35,7 +39,7 @@
 .let4{
     font-family: 'Alfa Slab One', cursive;
     font-size:6rem;
-    color: rgb(81, 83, 83);
+    color: rgb(154, 155, 155);
     margin-left: 3vw;
     transform: rotateX(180deg);
     animation-name: u;
@@ -54,7 +58,7 @@
 .let6{
     font-family: 'Alfa Slab One', cursive;
     font-size:6rem;
-    color: rgb(81, 83, 83);
+    color: rgb(154, 155, 155);
     transform: rotateX(180deg);
     animation-name: u;
     animation-duration: 5s;
@@ -111,4 +115,10 @@
     100%{transform: rotateX(180dge);}
 }
 
+.imgMenu{
+    height: 5vw;
+}
 
+#MENU{
+    display: none;
+}
