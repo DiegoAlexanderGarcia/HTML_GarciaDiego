@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.conten{
+    height: 11vw;
+    margin-top: 15vw;
+    display: flex;
+}
+
+.n1{
+    width: 2.7vw;
+    height: 11vw;
+    background-color: red;
+    margin-left: 45vw;
+    animation-name: one;
+    animation-duration: 2s;
+}
+
+@keyframes one {
+    0% {margin-top: 20vw;}
+    0% {height: 0vw;}
+    100% {margin-top: 0vw;}
+    100% {height: 20vw;}
+}
+
+.n2{
+    width: 2.7vw;
+    height: 11vw;
+    background-color: red;
+    margin-left: -0.5vw;
+    transform: skew(22deg);
+    box-shadow: -27px -16px 35px 7px rgba(0,0,0,0.78);
+}
+
+.n3{
+    width: 2.7vw;
+    height: 11vw;
+    background-color: red;
+    margin-left: -0.5vw;
+}
